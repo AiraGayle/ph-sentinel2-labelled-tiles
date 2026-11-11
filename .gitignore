@@ -1,0 +1,12 @@
+# big or working files - not needed in the repo
+scenes/
+data/tiles_CEB/
+data/tiles_CLZ/
+data/labelling/
+data/labelling2/
+data/labelling3/
+data/labelling4/
+data/labels/raw/
+label_*.html
+__pycache__/
+*.pyc
