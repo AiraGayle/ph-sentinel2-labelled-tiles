@@ -30,7 +30,7 @@ ESA WorldCover was used only as a hint for choosing tiles. It was not used as th
 | **Labelled total** | **717** |
 | unsure (excluded) | 184 |
 
-Class names follow EuroSAT. Highway, Pasture and PermanentCrop are not represented.
+Class names follow EuroSAT. Highway, Pasture and PermanentCrop are not represented. Full definitions of each class, with what it looks like and what it is confused with, are in `LABELLING_PROTOCOL.md`.
 
 ## Labelling and agreement
 Two annotators labelled every tile: Person 1 and a second annotator (an AI, see `AI_USE.md`). Cohen's kappa is **0.853** on real classes only (515 tiles) and **0.567** with unsure counted as a label (901 tiles). Per-class agreement is highest for SeaLake, Industrial, Residential and AnnualCrop, and lowest for River (0.54) and Herbaceous (0.68). Rules and resolution are in `LABELLING_PROTOCOL.md` and `DISAGREEMENT_RESOLUTION.md`.
@@ -42,7 +42,7 @@ Two annotators labelled every tile: Person 1 and a second annotator (an AI, see 
 - **Herbaceous vs Forest is ambiguous** at 10 m.
 - **Labels come from looking at 10 m imagery**, with no field check or higher-resolution imagery.
 - **One human annotator plus an AI second annotator.** The second annotator was not fully independent of Person 1 (see `AI_USE.md`).
-- **Industrial** was defined broadly (large roofs, plants), and some airport aprons are labelled Industrial.
+- **Industrial** was defined broadly (large roofs, warehouses, factories, ports), and some airport aprons are labelled Industrial.
 - **20.4% of tiles are unsure** and excluded, so the labelled set favours tiles that are easy to call.
 
 ## Licence and sources
